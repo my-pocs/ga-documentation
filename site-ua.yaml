@@ -4,7 +4,7 @@
 site:
   title: Платформа для розгортання та супроводження державних електронних реєстрів
   start_page: platform:ROOT:index.adoc
-  url: /ua
+  url: /ga-documentation/ua
 runtime:
   fetch: true
 content:

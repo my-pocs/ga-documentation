@@ -4,7 +4,7 @@
 site:
   title: Platform for deployment and maintenance of state electronic registers
   start_page: platform:ROOT:index.adoc
-  url: /en
+  url: /ga-documentation/en
 runtime:
   fetch: true
 content:
