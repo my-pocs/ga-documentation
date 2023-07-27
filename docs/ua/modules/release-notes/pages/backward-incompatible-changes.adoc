@@ -1,0 +1,19 @@
+//:toc: auto
+:toclevels:
+:toc-title: ЗМІСТ
+:sectnums:
+:sectnumlevels:
+:sectanchors:
+:experimental:
+:important-caption: ВАЖЛИВО
+:note-caption: ПОКРАЩЕНО
+:tip-caption: РОЗРОБЛЕНО
+:warning-caption: ЗВОРОТНО НЕСУМІСНІ ЗМІНИ
+:caution-caption: ІНШЕ
+:example-caption: Приклад
+//:last-update-label: 24.01.2023
+:sectlinks:
+
+= Зворотно несумісні зміни 1.9.6
+
+CAUTION: Сторінка у процесі розробки.

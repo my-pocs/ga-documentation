@@ -1,0 +1,80 @@
+:toc-title: ЗМІСТ
+:toc: auto
+:toclevels: 1
+:experimental:
+:important-caption:     ВИПРАВЛЕНО
+:note-caption:          ПОКРАЩЕНО
+:tip-caption:           РОЗРОБЛЕНО
+:caution-caption:       УВАГА
+:warning-caption:       ПОКРАЩЕННЯ БЕЗПЕКИ
+:example-caption:           Приклад
+:figure-caption:            Зображення
+:table-caption:             Таблиця
+:appendix-caption:          Додаток
+//:sectnums:
+:sectnumlevels: 5
+:sectanchors:
+:sectlinks:
+:partnums:
+
+
+= Примітки до релізу 1.9.6
+
+Пропонуємо ознайомитися з останніми примітками до релізу нашого програмного продукту. У цьому розділі ми надаємо інформацію про нові функції, оновлення компонентів, виправлення помилок, оптимізацію продуктивності та покращення безпеки.
+
+CAUTION: Сторінка у процесі розробки.
+
+////
+ICON TEMPLATES, font awesome needed in custom CSS
+[NOTE]
+====
+icon:wrench[set=fa,size=80em]
+
+Text goes here.
+====
+
+[CAUTION]
+====
+icon:code[set=fab,size=80em]
+
+текст
+====
+
+[TIP]
+====
+icon:cog[set=fa,size=80em]
+
+Text goes here.
+====
+
+[IMPORTANT]
+====
+icon:bug[set=fa,size=80em]
+
+Text goes here.
+====
+
+[WARNING]
+====
+icon:shield[set=fa,size=80em]
+
+Text goes here.
+====
+////
+
+== Розробка
+
+== Інші впровадження
+
+
+== Регресійні дефекти
+
+Ці оновлення включають ряд виправлень та покращень...
+
+== Безпека
+
+У релізі 1.9.5 було покращено декілька аспектів, що стосуються безпеки. Основні зміни включають:
+
+[WARNING]
+====
+====

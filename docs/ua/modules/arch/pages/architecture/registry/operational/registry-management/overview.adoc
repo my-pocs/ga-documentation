@@ -1,0 +1,63 @@
+= Підсистема управління даними реєстру
+
+[NOTE]
+--
+Сторінка технічної документації у процесі розробки...
+--
+
+== Загальний опис
+
+Підсистема, призначення якої є надання доступу до даних реєстру у вигляді REST API з можливістю запису, читання, зміни та видалення даних. Також підсистема відповідальна за управління збереженими файлами, перевіркою цілісності даних та виявленням несанкціонованих змін.
+
+== Функції підсистеми
+
+* Створення, читання, зміна та видалення записів реєстру.
+* Пошук даних за параметрами.
+* Реалізація рольвого доступу до данних (`RBAC`).
+* Ведення історичності змін.
+* Збереження інформації про походження даних.
+* Збереження повʼязаних файлів реєстру.
+* Збереження підписаних запитів в якості підстав для зміни даних реєстру.
+
+== Складові підсистеми
+
+|===
+|Назва компоненти|Представлення в реєстрі|Походження|Репозиторій|Призначення
+
+|_Сервіс синхронного управління даними реєстру_
+|`registry-rest-api-deployment`
+|origin
+|-
+|-
+
+|_Сервіс асинхронного управління даними реєстру_
+|`registry-kafka-api-deployment`
+|origin
+|-
+|-
+
+|xref:arch:architecture/registry/operational/registry-management/registry-db.adoc#[__Операційна БД реєстру__]
+|`registry`
+|origin
+|-
+|-
+
+|xref:arch:architecture/registry/operational/registry-management/ceph-storage.adoc#_file_ceph_bucket[__Операційне сховище цифрових документів реєстру__]
+|`ceph:file-ceph-bucket`
+|origin
+|-
+|-
+
+|xref:arch:architecture/registry/operational/registry-management/ceph-storage.adoc#_datafactory_ceph_bucket[__Сховище підписаних документів__]
+|`ceph:datafactory-ceph-bucket`
+|origin
+|-
+|-
+
+|xref:arch:architecture/registry/operational/registry-management/ceph-storage.adoc#_response_ceph_bucket[__Сховище підписаних документів__]
+|`response-ceph-bucket`
+|origin
+|-
+|-
+
+|===
